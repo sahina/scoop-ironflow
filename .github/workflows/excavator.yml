@@ -1,0 +1,31 @@
+# Auto-update the Scoop manifest — retires the manual update-manifest.sh step.
+#
+# THIS FILE DOES NOT BELONG IN THE IRONFLOW REPO. Copy it into the *bucket* repo:
+#   sahina/scoop-ironflow/.github/workflows/excavator.yml
+#
+# Excavator polls the releases repo on a cron (checkver + autoupdate blocks in
+# bucket/ironflow-desktop.json already drive it), computes the new SHA256, and
+# commits the bump straight to the bucket's default branch. Keep that branch
+# UNprotected — the action can't push through branch protection.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+name: Excavator
+concurrency:
+  group: ${{ github.workflow }}
+permissions:
+  contents: write
+jobs:
+  excavate:
+    name: Excavator
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Excavator
+        # Pinned to a SHA — this action runs with contents:write, so don't track a moving tag.
+        # Bump via Dependabot/Renovate, or re-pin manually: gh api repos/ScoopInstaller/GithubActions/commits/main --jq .sha
+        uses: ScoopInstaller/GithubActions@e174c3bef2aeec16a40f2f075cafa167733f0a3e # main @ 2026-07-23
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: '1'
