@@ -1,9 +1,9 @@
 # scoop-ironflow
 
+[![Latest version](https://img.shields.io/github/v/release/sahina/ironflow-desktop-releases?label=ironflow-desktop&color=blue)](https://github.com/sahina/ironflow-desktop-releases/releases/latest)
+
 Scoop bucket for **Ironflow Desktop** — the desktop app for [Ironflow](https://ironflow.run).
 One app; this bucket carries nothing else.
-
-[![Latest version](https://img.shields.io/github/v/release/sahina/ironflow-desktop-releases?label=ironflow-desktop&color=blue)](https://github.com/sahina/ironflow-desktop-releases/releases/latest)
 
 Windows users install via [Scoop](https://scoop.sh) instead of the direct `setup.exe`. Scoop strips
 Windows' **Mark-of-the-Web**, so the SmartScreen "unknown publisher" wall never fires — even though
