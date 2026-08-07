@@ -53,6 +53,14 @@ within 30 minutes of a release.
 | `bucket/ironflow-desktop.json`    | The Scoop manifest — points at the `.zip` in the releases repo. |
 | `.github/workflows/excavator.yml` | Cron that auto-bumps the manifest when a new release ships.     |
 
+## Bugs & support
+
+<https://github.com/sahina/ironflow-issues/issues/new/choose>
+
+Issues are disabled on this repo so everything lands in one place. Security disclosures go to
+[private advisories](https://github.com/sahina/ironflow-issues/security/advisories/new), never a
+public issue.
+
 ## License
 
 The manifest and workflow in this repository are MIT-licensed. **Ironflow Desktop itself is not** —
