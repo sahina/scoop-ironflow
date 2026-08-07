@@ -12,7 +12,7 @@ the build is currently unsigned.
 > **Windows is an experimental platform.** Builds ship on every release and auto-update, but they are
 > not regularly tested — Ironflow is built by one developer working on macOS. If you hit a problem, or
 > want to help look after the Windows build,
-> [open an issue](https://github.com/sahina/ironflow-desktop-releases/issues).
+> [open an issue](https://github.com/sahina/ironflow-issues/issues/new/choose).
 
 ## Install
 
