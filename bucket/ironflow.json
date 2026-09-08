@@ -1,0 +1,22 @@
+{
+    "version": "0.36.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sahina/ironflow-releases/releases/download/v0.36.1/ironflow_0.36.1_windows_amd64.zip",
+            "bin": [
+                "ironflow.exe"
+            ],
+            "hash": "80264748d8549d9849068a7c43df2af343903dee71d1eea69ad2f841d194e553"
+        },
+        "arm64": {
+            "url": "https://github.com/sahina/ironflow-releases/releases/download/v0.36.1/ironflow_0.36.1_windows_arm64.zip",
+            "bin": [
+                "ironflow.exe"
+            ],
+            "hash": "98060d53c922091ba2fdaa96f4aa662784540276b684e3d0314f8da51b67965e"
+        }
+    },
+    "homepage": "https://ironflow.run",
+    "license": "LicenseRef-Ironflow-EULA",
+    "description": "Event-driven backend platform with durable workflows"
+}
