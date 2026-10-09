@@ -1,12 +1,12 @@
 {
-    "version": "0.26.0",
+    "version": "0.27.0",
     "description": "Ironflow Desktop — GUI client for Ironflow.",
     "homepage": "https://ironflow.run",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sahina/ironflow-desktop-releases/releases/download/v0.26.0/Ironflow-Desktop-0.26.0-x64.zip",
-            "hash": "0a1fe579e433bd7059a58a552a8100735be6d039f46b6a0ff6f1ce29b722c897"
+            "url": "https://github.com/sahina/ironflow-desktop-releases/releases/download/v0.27.0/Ironflow-Desktop-0.27.0-x64.zip",
+            "hash": "75c6e574f4f4371e148b9769ba70f2a8e32a969cdcc2766dd69f934b2a33981b"
         }
     },
     "shortcuts": [
