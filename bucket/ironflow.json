@@ -1,19 +1,19 @@
 {
-    "version": "0.44.1",
+    "version": "0.45.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sahina/ironflow-releases/releases/download/v0.44.1/ironflow_0.44.1_windows_amd64.zip",
+            "url": "https://github.com/sahina/ironflow-releases/releases/download/v0.45.2/ironflow_0.45.2_windows_amd64.zip",
             "bin": [
                 "ironflow.exe"
             ],
-            "hash": "39ff749e1d6f01a186cadf14352d9b83a97b12f6639ad32f6e15cb0405942978"
+            "hash": "8b3c5a516ae3c9acb158f10de2ef0915bd9bdc2d997cbaa8dcf3f3da543ff598"
         },
         "arm64": {
-            "url": "https://github.com/sahina/ironflow-releases/releases/download/v0.44.1/ironflow_0.44.1_windows_arm64.zip",
+            "url": "https://github.com/sahina/ironflow-releases/releases/download/v0.45.2/ironflow_0.45.2_windows_arm64.zip",
             "bin": [
                 "ironflow.exe"
             ],
-            "hash": "6b4ed7e8a8cb32fefb56ae95489184fd8c8f0c3ffb5b49c8a10d7cd82f2d138d"
+            "hash": "f04938808669af9f17852a8da959cbea07f246abd7779a020d086a0590ae640a"
         }
     },
     "homepage": "https://ironflow.run",
